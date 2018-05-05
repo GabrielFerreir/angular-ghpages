@@ -1,0 +1,49 @@
+:host {
+    .main {
+        width: 100vw;
+        height: 100vh;
+        background-color: #FAFAFA;
+        // background: linear-gradient(145deg,#0d47a1,#42a5f5);
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+        text-align: center;
+        &__content {
+            min-width: 320px;;
+            &__card-image {
+                min-width: 320px;
+                height: 200px;
+                &__image {
+                    width: 100%;
+                    height: 100%;
+                }
+            }
+            &__title {
+                width: 100%;
+                color: #D32F2F;
+                font-size: 48px;
+                padding: 8px;
+            }
+            &__subtitle {
+                width: 100%;
+                color: rgba(0,0,0,.64);
+                padding: 8px;
+            }
+            &__readme {
+                width: 100%;
+                
+                padding: 8px;
+                a {
+                    color: #c43b30;
+                    text-decoration: none;
+                    transition: All 180ms ease;
+                    &:hover {
+                        color: #de4433;
+                    }
+                }
+            }
+        }
+    }
+
+}
